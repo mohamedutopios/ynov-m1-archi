@@ -1,4 +1,4 @@
-package org.example.creational.singleton;
+package org.example.creation.singleton;
 
 public class OrderManagementService {
 
