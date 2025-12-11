@@ -10,7 +10,7 @@ public class ShapeFactorySimple {
             return new Rectangle();
         }
         if(shapeType.equalsIgnoreCase("square")){
-            return new org.example.creational.factory.Square();
+            return new org.example.creation.factory.Square();
 
         }
         if(shapeType.equalsIgnoreCase("circle")){
