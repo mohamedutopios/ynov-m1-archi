@@ -1,4 +1,4 @@
-package org.example.creational.factory;
+package org.example.creation.factory;
 
 public interface Shape {
     void draw();

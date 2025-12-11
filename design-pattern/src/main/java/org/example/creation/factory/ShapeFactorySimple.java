@@ -1,4 +1,4 @@
-package org.example.creational.factory;
+package org.example.creation.factory;
 
 public class ShapeFactorySimple {
 
@@ -10,7 +10,7 @@ public class ShapeFactorySimple {
             return new Rectangle();
         }
         if(shapeType.equalsIgnoreCase("square")){
-            return new Square();
+            return new org.example.creational.factory.Square();
 
         }
         if(shapeType.equalsIgnoreCase("circle")){

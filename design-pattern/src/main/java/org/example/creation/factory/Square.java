@@ -1,4 +1,6 @@
-package org.example.creational.factory;
+package org.example.creation.factory;
+
+import org.example.creation.factory.Shape;
 
 public class Square implements Shape {
     @Override
