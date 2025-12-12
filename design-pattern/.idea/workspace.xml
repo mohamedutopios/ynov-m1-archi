@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0290a263-1778-4713-80e2-15960d8b9d20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/adapter/AmericanPlug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/adapter/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/adapter/EuropeanPlug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/adapter/PlugAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creation/prototype/avecproto/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creation/prototype/avecproto/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
     "Application.Demo.executor": "Run",
     "Application.DemoWithOutPrototype.executor": "Run",
     "Application.org.example.creation.prototype.avecproto.Demo.executor": "Run",
+    "Application.org.example.structural.adapter.Demo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,7 +65,7 @@
       <recent name="org.example.creational.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.creation.prototype.avecproto.Demo">
+  <component name="RunManager" selected="Application.org.example.structural.adapter.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.creational.singleton.Demo" />
       <module name="design-pattern" />
@@ -101,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.structural.adapter.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.structural.adapter.Demo" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.structural.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.structural.adapter.Demo" />
         <item itemvalue="Application.org.example.creation.prototype.avecproto.Demo" />
         <item itemvalue="Application.DemoWithOutPrototype" />
         <item itemvalue="Application.Demo" />
