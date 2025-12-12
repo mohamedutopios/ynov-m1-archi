@@ -12,7 +12,7 @@ public class Circle implements ShapePrototype{
 
     @Override
     public ShapePrototype clone() {
-        return null;
+        return new Circle(radius, color);
     }
 
     @Override
