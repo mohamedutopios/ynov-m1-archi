@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0290a263-1778-4713-80e2-15960d8b9d20" name="Changes" comment="" />
+    <list default="true" id="0290a263-1778-4713-80e2-15960d8b9d20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/decorator/CoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/decorator/MilkDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/decorator/SimpleCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structural/decorator/SugarDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.DemoWithOutPrototype.executor": "Run",
     "Application.org.example.creation.prototype.avecproto.Demo.executor": "Run",
@@ -55,11 +64,28 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/structural" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.structural.decorator" />
       <recent name="org.example.creational.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.structural.adapter.Demo">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.structural.decorator.Client" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.creational.singleton.Demo" />
       <module name="design-pattern" />
@@ -114,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.org.example.structural.adapter.Demo" />
         <item itemvalue="Application.org.example.creation.prototype.avecproto.Demo" />
         <item itemvalue="Application.DemoWithOutPrototype" />
