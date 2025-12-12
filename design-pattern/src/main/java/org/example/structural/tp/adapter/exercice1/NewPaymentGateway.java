@@ -1,4 +1,4 @@
-package org.example.structural.adpater.tp.exercice1;
+package org.example.structural.tp.adapter.exercice1;
 
 public class NewPaymentGateway {
     public void authenticate(String apiKey) {

@@ -1,4 +1,4 @@
-package org.example.structural.adpater.tp.exercice1;
+package org.example.structural.tp.adapter.exercice1;
 
 public class NewPaymentAdapter implements OldPaymentGateway {
 

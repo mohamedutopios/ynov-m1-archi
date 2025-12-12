@@ -1,4 +1,4 @@
-package org.example.structural.adpater.tp.exercice2;
+package org.example.structural.tp.adapter.exercice2;
 
 public class NotificationAdapter implements SmsService {
     EmailService emailService;
